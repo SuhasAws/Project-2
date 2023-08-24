@@ -7,3 +7,4 @@ variable "BigQ-DS-project" {}
 variable "BigQ-Table-table_id" {}
 variable "BigQ-Table-TP-type" {}
 variable "BigQ-deletion_protection" {}
+variable "schema" {}

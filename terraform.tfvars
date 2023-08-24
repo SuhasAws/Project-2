@@ -7,3 +7,20 @@ BigQ-DS-project = "lithe-cyclist-388705"
 BigQ-Table-table_id = "Table1"
 BigQ-Table-TP-type = "DAY"
 BigQ-deletion_protection = "false"
+
+storage_bucket-name = "storage-buckettss"
+storage_bucket-location = "us-east4"
+storage_bucket-project = "lithe-cyclist-388705"
+storage_bucket-force_destroy = "true"
+storage_bucket-age = 3
+storage_bucket-type = "Delete"
+storage_bucket-LR-age = 1
+storage_bucket-LR-type = "AbortIncompleteMultipartUpload" 
+storage_bucket-RP-is_locked = "true"
+storage_bucket-RP-retention_period = 300
+Folder-content = "Not really a directory, but it's empty"
+public_rule-role = "READER"
+public_rule-entity = "allUsers"
+Folder-name = "Directory1"
+
+

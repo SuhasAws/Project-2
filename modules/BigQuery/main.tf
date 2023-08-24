@@ -17,5 +17,6 @@ resource "google_bigquery_table" "BigQ-Table" {
   }
  deletion_protection = var.BigQ-deletion_protection
 
+ schema = var.schema
 }
 
