@@ -1,0 +1,9 @@
+BigQ-DS-dataset_id = "Dataset1"
+BigQ-DS-friendly_name = "Test1"
+BigQ-DS-description = "This is test1 description"
+BigQ-DS-location = "EU"
+BigQ-DS-default_table_expiration_ms = 3600000
+BigQ-DS-project = "lithe-cyclist-388705"
+BigQ-Table-table_id = "Table1"
+BigQ-Table-TP-type = "DAY"
+BigQ-deletion_protection = "false"
