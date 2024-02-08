@@ -4,9 +4,7 @@ BigQ-DS-description = "This is test1 description"
 BigQ-DS-location = "EU"
 BigQ-DS-default_table_expiration_ms = 3600000
 BigQ-DS-project = "suhas-412507"
-BigQ-Table-table_id = "Table1"
-BigQ-Table-TP-type = "DAY"
-BigQ-deletion_protection = "false"
+
 
 storage_bucket-name = "storage-buckettss"
 storage_bucket-location = "us-east4"
