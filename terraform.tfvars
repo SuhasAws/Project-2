@@ -1,7 +1,7 @@
 BigQ-DS-dataset_id = "Dataset1"
 BigQ-DS-friendly_name = "Test1"
 BigQ-DS-description = "This is test1 description"
-BigQ-DS-location = "EU"
+BigQ-DS-location = "us-central1"
 BigQ-DS-default_table_expiration_ms = 3600000
 BigQ-DS-project = "suhas-412507"
 
