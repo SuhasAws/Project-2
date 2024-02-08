@@ -22,58 +22,6 @@ variable "BigQ-DS-project" {
     type = string
     description = " Project name "
 }
-variable "BigQ-Table-table_id" {
-    type = string
-    description = "bigquery table id"
-}
-variable "BigQ-Table-TP-type" {
-     type = string
-    description = "time partioting of big query table"
-}
-variable "BigQ-deletion_protection" {
-     type = bool
-     description = " deletion protection for terraform"
-}
-
-variable "schema"{
-
-    type = string
-
-    description = "schema"
-
-    default = <<EOF
-
-[
-
-  {
-
-    "name": "permalink",
-
-    "type": "STRING",
-
-    "mode": "NULLABLE",
-
-    "description": "The Permalink"
-
-  },
-
-  {
-
-    "name": "state",
-
-    "type": "STRING",
-
-    "mode": "NULLABLE",
-
-    "description": "State where the head office is located"
-
-  }
-
-]
-
-EOF
-
-}
 
  
 
