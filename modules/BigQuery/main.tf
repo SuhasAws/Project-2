@@ -7,16 +7,4 @@ resource "google_bigquery_dataset" "BigQ-DS" {
   project                     = var.BigQ-DS-project
 } 
 
-resource "google_bigquery_table" "BigQ-Table" {
-  dataset_id = google_bigquery_dataset.BigQ-DS.dataset_id
-  table_id   = var.BigQ-Table-table_id
-  project    = var.BigQ-DS-project
-
- time_partitioning {
-     type = var.BigQ-Table-TP-type
-  }
- deletion_protection = var.BigQ-deletion_protection
-
- schema = var.schema
-}
 
