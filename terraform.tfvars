@@ -7,7 +7,7 @@ BigQ-DS-project = "suhas-412507"
 
 
 storage_bucket-name = "storage-buckettss"
-storage_bucket-location = "us-east4"
+storage_bucket-location = "us-central1"
 storage_bucket-project = "suhas-412507"
 storage_bucket-force_destroy = "true"
 storage_bucket-age = 3
